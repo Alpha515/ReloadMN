@@ -30,12 +30,12 @@ Alias Address Genkey TxHash TxIndex
 *Address: VPS_IP:PORT
 *Privkey: Value from setp 6
 *TxHash: First value from Step 7
-*TxIndex: Second value from Step 7
-10ave and close the file.
-11Go to Masternode Tab. If you tab is not shown, please enable it from: Settings - Options - Wallet - Show Masternodes Tab
-12Click Update status to see your node. If it is not shown, close the wallet and start it again. Make sure the wallet is unlocked.
-13Select your MN and click Start Alias to start it.
-14Alternatively, open Debug Console and type:</li></OL>
+*TxIndex: Second value from Step 7</li>
+<li>Save and close the file.</li>
+<li>Go to Masternode Tab. If you tab is not shown, please enable it from: Settings - Options - Wallet - Show Masternodes Tab</li>
+<li>Click Update status to see your node. If it is not shown, close the wallet and start it again. Make sure the wallet is unlocked.</li>
+<li>Select your MN and click Start Alias to start it.</li></OL>
+Alternatively, open Debug Console and type:
 ```
 masternode start-alias false MN1
 ```
