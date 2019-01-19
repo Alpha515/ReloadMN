@@ -43,7 +43,7 @@ sudo add-apt-repository ppa:bitcoin/bitcoin -y
 sudo apt-get update
 sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
 
-sudo git clone https://github.com/Indy-Mining/ReloadMN
+sudo git clone https://github.com/Alpha515/ReloadMN
 cd ReloadMN
 
 sleep 2
