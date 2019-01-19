@@ -32,6 +32,7 @@ Alias Address Genkey TxHash TxIndex
 *TxHash: First value from Step 7
 *TxIndex: Second value from Step 7</li>
 <li>Save and close the file.</li>
+<li>Restart the wallet</li>
 <li>Go to Masternode Tab. If you tab is not shown, please enable it from: Settings - Options - Wallet - Show Masternodes Tab</li>
 <li>Click Update status to see your node. If it is not shown, close the wallet and start it again. Make sure the wallet is unlocked.</li>
 <li>Select your MN and click Start Alias to start it.</li></OL>
@@ -47,19 +48,19 @@ bltg-cli masternode status
 
 ## Usage:
 ```
-bltg-cli mnsync status
-bltg-cli masternode status  
-bltg-cli getinfo
+rld-cli mnsync status
+rld-cli masternode status  
+rld-cli getinfo
 ```
-Also, if you want to check/start/stop bltg, run one of the following commands as root:
+Also, if you want to check/start/stop rld, run one of the following commands as root:
 ```
-systemctl status bltg.service #To check if BLTG service is running  
-systemctl start bltg.service #To start BLTG service  
-systemctl stop bltg.service #To stop BLTG service  
-systemctl is-enabled bltg.service #To check if BLTG service is enabled on boot  
+systemctl status rld.service #To check if BLTG service is running  
+systemctl start rld.service #To start BLTG service  
+systemctl stop rld.service #To stop BLTG service  
+systemctl is-enabled rld.service #To check if RLD service is enabled on boot  
 ```
 ***
 
 ## Donations
-
-
+BTC: 33pfqTNHABWJm1UkUutjqnCZFcUj9obrrg
+RLD: rAm9BDjWDLwup2DJ88oqMrRgWXBpghqree
