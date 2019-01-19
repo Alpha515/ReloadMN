@@ -51,37 +51,37 @@ sleep 2
 echo ""
 echo ""
 echo -e "${GREEN}Moving stuff where it ${RED}NEEDS${NC} to be"
-sudo chmod +x ~/ReloadMN/reloadd ~/ReloadMN/reload-cli
-sudo mv ~/ReloadMN/reloadd ~/ReloadMN/reload-cli /usr/local/bin
-mkdir ~/.reload
-cd ~/.reload
-sudo reloadd -daemon
+sudo chmod +x ~/ReloadMN/rldd ~/ReloadMN/rld-cli
+sudo mv ~/ReloadMN/rldd ~/ReloadMN/rld-cli /usr/local/bin
+mkdir ~/.rld
+cd ~/.rld
+sudo rldd -daemon
 sleep 2
-sudo reload-cli stop
+sudo rld-cli stop
 sleep 5
 echo ""
 echo ""
 sleep 2
 echo -e "${GREEN}Creating the ${RED}Configuration File Now${NC}"
 sleep 2
-echo "rpcuser="`shuf -i 100000-10000000 -n 1` >> ~/.reload/reload.conf
-echo "rpcpassword="`shuf -i 100000-10000000 -n 1` >> ~/.reload/reload.conf
-echo "rpcallowip=127.0.0.1" >> ~/.reload/reload.conf
-echo "port=24422" >> ~/.reload/reload.conf
-echo "staking=1" >> ~/.reload/reload.conf
-echo "logtimestamps=1" >> ~/.reload/reload.conf
-echo "listen=1" >> ~/.reload/reload.conf
-echo "server=1" >> ~/.reload/reload.conf
-echo "daemon=1" >> ~/.reload/reload.conf
-echo "addnode=seed1.reloadcoin.io" >> ~/.reload/reload.conf
-echo "addnode=seed2.reloadcoin.io" >> ~/.reload/reload.conf
-echo "maxconnections=250" >> ~/.reload/reload.conf
-echo "masternode=1" >> ~/.reload/reload.conf
-echo "masternodeaddr$IP" >> ~/.reload/reload.conf
-echo "masternodeprivkey=$KEY" >> ~/.reload/reload.conf
+echo "rpcuser="`shuf -i 100000-10000000 -n 1` >> ~/.rld/rld.conf
+echo "rpcpassword="`shuf -i 100000-10000000 -n 1` >> ~/.rld/rld.conf
+echo "rpcallowip=127.0.0.1" >> ~/.rld/rld.conf
+echo "port=24422" >> ~/.rld/rld.conf
+echo "staking=1" >> ~/.rld/rld.conf
+echo "logtimestamps=1" >> ~/.rld/rld.conf
+echo "listen=1" >> ~/.rld/rld.conf
+echo "server=1" >> ~/.rld/rld.conf
+echo "daemon=1" >> ~/.rld/rld.conf
+echo "addnode=seed1.reloadcoin.io" >> ~/.rld/rld.conf
+echo "addnode=seed2.reloadcoin.io" >> ~/.rld/rld.conf
+echo "maxconnections=250" >> ~/.rld/rld.conf
+echo "masternode=1" >> ~/.rld/rld.conf
+echo "masternodeaddr$IP" >> ~/.rld/rld.conf
+echo "masternodeprivkey=$KEY" >> ~/.rld/rld.conf
 echo -e "${GREEN}STARTING THE DAEMON${NC}"
 
-sudo reloadd -daemon
+sudo rldd -daemon
 sleep 2
 echo ""
 echo ""
