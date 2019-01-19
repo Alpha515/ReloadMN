@@ -12,7 +12,7 @@ cd && sudo apt-get update -y && sudo apt-get update -y && sudo apt-get install p
 ## Desktop wallet setup
 
 After the MN is up and running, you need to configure the desktop wallet accordingly. Here are the steps:
-1.Open the RLD Desktop Wallet.
+1.Open the RLD Desktop Wallet.<br>
 2.Go to RECEIVE and create a New Address: MN1
 3.Send 15,000,000 RLD to MN1.
 4.Wait for 16 confirmations.
