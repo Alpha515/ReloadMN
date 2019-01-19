@@ -12,19 +12,17 @@ cd && sudo apt-get update -y && sudo apt-get update -y && sudo apt-get install p
 ## Desktop wallet setup
 
 After the MN is up and running, you need to configure the desktop wallet accordingly. Here are the steps:<br>
-<UL>
+<OL>
   <li>Open the RLD Desktop Wallet.</li>
   <li>Go to RECEIVE and create a New Address: MN1</li>
-</UL>
-1.Open the RLD Desktop Wallet.<br>
-2.Go to RECEIVE and create a New Address: MN1
-3.Send 15,000,000 RLD to MN1.
-4.Wait for 16 confirmations.
-5.Go to Tools -> "Debug Console"
-6.Type the following command: masternode genkey
-7.Type the following command: masternode outputs
-8.Go to Tools -> "Open Masternode Configuration File"
-9.Add the following entry:
+  <li>Send 15,000,000 RLD to MN1.</li>
+  <li>Wait for 16 confirmations.</li>
+  <li>Go to Tools -> "Debug Console"</li>
+  <li>Type the following command: masternode genkey</li>
+  <li>Type the following command: masternode outputs</li>
+  <li>Go to Tools -> "Open Masternode Configuration File"</li>
+  <li>Add the following entry:
+
 ```
 Alias Address Genkey TxHash TxIndex
 ```
@@ -37,7 +35,7 @@ Alias Address Genkey TxHash TxIndex
 11Go to Masternode Tab. If you tab is not shown, please enable it from: Settings - Options - Wallet - Show Masternodes Tab
 12Click Update status to see your node. If it is not shown, close the wallet and start it again. Make sure the wallet is unlocked.
 13Select your MN and click Start Alias to start it.
-14Alternatively, open Debug Console and type:
+14Alternatively, open Debug Console and type:</li></OL>
 ```
 masternode start-alias false MN1
 ```
