@@ -63,5 +63,5 @@ systemctl is-enabled rld.service #To check if RLD service is enabled on boot
 ***
 
 ## Donations
-BTC: 33pfqTNHABWJm1UkUutjqnCZFcUj9obrrg
+BTC: 33pfqTNHABWJm1UkUutjqnCZFcUj9obrrg<br>
 RLD: rAm9BDjWDLwup2DJ88oqMrRgWXBpghqree
