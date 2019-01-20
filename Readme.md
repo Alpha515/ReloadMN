@@ -43,22 +43,22 @@ masternode start-alias false MN1
 ```
 Login to your VPS and check your masternode status by running the following command. If you get **status 4**, it means your masternode is active.
 ```
-bltg-cli masternode status
+rld-cli masternode status
 ```
 ***
 
 ## Usage:
 ```
-To check the sync status of the masternode: <br> <b>rld-cli mnsync status</b><br>
-To check the status of the masternodes: <br><b>rld-cli masternode status</b><br>  
-To get information about RLD client: <br><b>rld-cli getinfo</b><br>
+rld-cli mnsync status     #To check the sync status of the masternode
+rld-cli masternode status #To check the status of the masternodes   
+rld-cli getinfo           #To get information about RLD client 
 ```
 Also, if you want to check/start/stop rld, run one of the following commands as root:
 ```
-systemctl status rld.service #To check if RLD service is running  
-systemctl start rld.service #To start RLD service  
-systemctl stop rld.service #To stop RLD service  
-systemctl is-enabled rld.service #To check if RLD service is enabled on boot  
+systemctl status rld.service      #To check if RLD service is running  
+systemctl start rld.service       #To start RLD service  
+systemctl stop rld.service        #To stop RLD service  
+systemctl is-enabled rld.service  #To check if RLD service is enabled on boot  
 ```
 ***
 
