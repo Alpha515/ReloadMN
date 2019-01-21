@@ -5,12 +5,12 @@ Shell script to install a RLD Masternode on a Linux server running Ubuntu 16.04.
 ## Installation for version 1.0.1.1 (TestNet)
 
 
-## Desktop wallet setup
+## Desktop Wallet Setup
 
 After the MN is up and running, you need to configure the desktop wallet accordingly. Here are the steps:<br>
 <OL>
   <li>Open the RLD Desktop Wallet.</li>
-  <li>Go to RECEIVE and create a New Address: MN1</li>
+  <li>Go to RECEIVE and create a New Address and give it a name i.e. MN1</li>
   <li>Send 15,000,000 RLD to MN1.</li>
   <li>Wait for 16 confirmations.</li>
   <li>Go to Tools -> "Debug Console"</li>
