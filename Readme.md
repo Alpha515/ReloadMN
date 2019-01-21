@@ -4,7 +4,6 @@ Shell script to install a RLD Masternode on a Linux server running Ubuntu 16.04.
 
 ## Installation for version 1.0.1.1 (TestNet)
 
-***
 
 ## Desktop wallet setup
 
