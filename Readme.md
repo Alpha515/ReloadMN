@@ -1,13 +1,15 @@
 ## Reload Masternode Installation
-Shell script to install a RLD Masternode on a Linux server running Ubuntu 16.04. This script was tested on a fresh install of Ubuntu 16.04 <a href="https://www.vultr.com/?ref=7424117">Vultr VPS</a>. Please use at your own risk.
+Shell script to install a RLD Masternode on a Linux server running Ubuntu 16.04. This script was tested on a fresh install of Ubuntu 16.04 [Vultr VPS] (https://www.vultr.com/?ref=7424117). Please use at your own risk.
 ***
 
 ## Installation for version 1.0.1.1 (TestNet)
 Copy & paste the command below to your VPS to start the installation process.
 ```
-cd && sudo apt-get update -y && sudo apt-get update -y && sudo apt-get install p7zip-full -y && sudo apt-get -y install git && sudo git clone https://github.com/Alpha515/ReloadMN && cd ReloadMN/ && sudo bash RLD-instal.sh
+cd && sudo apt-get update -y && sudo apt-get install p7zip-full -y && sudo apt-get -y install git && sudo git clone https://github.com/Alpha515/ReloadMN && cd ReloadMN/ && sudo bash RLD-instal.sh
 ```
 ***
+
+<script 
 
 ## Desktop Wallet Setup
 
