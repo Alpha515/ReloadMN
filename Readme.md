@@ -9,8 +9,6 @@ cd && sudo apt-get update -y && sudo apt-get install p7zip-full -y && sudo apt-g
 ```
 ***
 
-<script 
-
 ## Desktop Wallet Setup
 
 After the MN is up and running, you need to configure the desktop wallet accordingly. Here are the steps:<br>
