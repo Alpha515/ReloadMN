@@ -1,5 +1,5 @@
 ## Reload Masternode Installation
-Shell script to install a RLD Masternode on a Linux server running Ubuntu 16.04. Use it on your own risk.
+Shell script to install a RLD Masternode on a Linux server running Ubuntu 16.04. This script was tested on a fresh install of Ubuntu 16.04 and also tested on actively used VPS's but please use at your own risk.
 
 ***
 
@@ -44,6 +44,14 @@ masternode start-alias false MN1
 Login to your VPS and check your masternode status by running the following command. If you get **status 4**, it means your masternode is active.
 ```
 rld-cli masternode status
+```
+***
+***
+
+## Installation for version 1.0.1.1 (TestNet)
+Copy & paste the command below to your VPS to start the installation process.
+```
+cd && sudo apt-get update -y && sudo apt-get update -y && sudo apt-get install p7zip-full -y && sudo apt-get -y install git && sudo git clone https://github.com/Alpha515/ReloadMN && cd ReloadMN/ && sudo bash RLD-instal.sh
 ```
 ***
 
